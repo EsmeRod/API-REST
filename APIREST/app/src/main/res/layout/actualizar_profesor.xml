@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/nombreEditText_prof"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/apellidoEditText_prof"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="apellido" />
+
+    <EditText
+        android:id="@+id/edadEditText_prof"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edad" />
+
+    <EditText
+        android:id="@+id/materiaEditText_prof"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Materia Asignada" />
+
+
+    <Button
+        android:id="@+id/actualizarButton_prof"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar" />
+
+</LinearLayout>
