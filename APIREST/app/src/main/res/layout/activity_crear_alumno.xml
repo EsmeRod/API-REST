@@ -1,48 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".Activity_Crear_Alumno">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Agregar Nuevo Profesor"
+        android:text="Agregar Nuevo Alumno"
         android:textSize="24sp"
         android:textStyle="bold"
         android:gravity="center" />
 
     <EditText
-        android:id="@+id/editTextNombre_prof"
+        android:id="@+id/editTextNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nombre del Profesor"
+        android:hint="Nombre del alumno"
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/editTextApellido_prof"
+        android:id="@+id/editTextApellido"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Apellido del Profesor"
+        android:hint="Apellido del alumno"
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/editTextEdad_prof"
+        android:id="@+id/editTextEdad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Edad del Profesor"
-        android:inputType="number" />
-
-    <EditText
-        android:id="@+id/editTextMateria_prof"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Materia Asignada"
+        android:hint="Edad del alumno"
         android:inputType="number" />
 
     <Button
-        android:id="@+id/btnGuardar_prof"
+        android:id="@+id/btnGuardar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Guardar" />
