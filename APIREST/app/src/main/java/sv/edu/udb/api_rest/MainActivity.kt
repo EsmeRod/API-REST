@@ -19,12 +19,12 @@ class MainActivity : AppCompatActivity() {
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
        when(item.itemId){
-       R.id.Alumno-> Toast.makeText( this,"Selecciono Alumno", Toast.LENGTH_SHORT).show();
-               //val intent = Intent(this, Opcion2Activity::class.java)
-           //startActivity(intent)}
-           R.id.Profesores-> Toast.makeText( this,"Selecciono Profesores", Toast.LENGTH_SHORT).show();
-               //val intent = Intent(this, Opcion2Activity::class.java)
-           //startActivity(intent)}
+       R.id.Alumno->{ Toast.makeText( this,"Selecciono Alumno", Toast.LENGTH_SHORT).show();
+               val intent = Intent(this, Activity_Alumno_Main::class.java)
+           startActivity(intent)}
+           R.id.Profesores->{ Toast.makeText( this,"Selecciono Profesores", Toast.LENGTH_SHORT).show();
+               val intent = Intent(this, Activity_Profesor_Main::class.java)
+           startActivity(intent)}
        }
         return super.onOptionsItemSelected(item)
     }

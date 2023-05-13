@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "716442020219",
+    "project_id": "kotlin-firebase-c6ac0",
+    "storage_bucket": "kotlin-firebase-c6ac0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716442020219:android:370dc1211a619a64bf75de",
+        "android_client_info": {
+          "package_name": "sv.edu.udb.api_rest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716442020219-rtta21qtuhqqp2vs6rrjg0opuvcdv7ce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPNonySp1BCLhumneflkorA6IrAdfpUpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716442020219-rtta21qtuhqqp2vs6rrjg0opuvcdv7ce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
