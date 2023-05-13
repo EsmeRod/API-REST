@@ -8,4 +8,5 @@ class Activity_Alumno_Item : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_alumno_item)
     }
+
 }
