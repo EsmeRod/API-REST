@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/Profesores"
+        android:icon="@drawable/ic_profesor"
+        android:title="Profesores"
+        app:showAsAction="withText"
+    />
+    <item android:id="@+id/Alumno"
+        android:icon="@drawable/ic_alumno"
+        android:title="Alumnos"
+        app:showAsAction="withText"
+        />
+</menu>
