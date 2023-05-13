@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".Activity_Crear_Alumno">
+    tools:context=".Vista.Activity_Crear_Alumno">
 
     <TextView
         android:layout_width="match_parent"

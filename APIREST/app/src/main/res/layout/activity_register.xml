@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity_Register">
+    tools:context=".Vista.RegisterActivity">
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="366dp"
@@ -17,29 +17,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnRegistro">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="¿Ya posees una cuenta?"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="528dp"/>
-    <TextView
-        android:id="@+id/textViewLogin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="2.6"
-        android:height="48dp"
-        android:text="Ingresar"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="287dp"
-        tools:layout_editor_absoluteY="528dp"/>
-</LinearLayout>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="¿Ya posees una cuenta?"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="82dp"
+            tools:layout_editor_absoluteY="528dp"/>
+        <TextView
+            android:id="@+id/textViewLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.6"
+            android:height="48dp"
+            android:text="Ingresar"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="287dp"
+            tools:layout_editor_absoluteY="528dp"/>
+    </LinearLayout>
 
     <EditText
         android:id="@+id/txtEmail"
@@ -59,13 +59,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-    android:id="@+id/btnRegistro"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+        android:id="@+id/btnRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-    android:layout_marginBottom="10dp"
+        android:layout_marginBottom="10dp"
         android:text="Registrar"
-    android:textColor="@color/white"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"

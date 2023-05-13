@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -10,39 +12,40 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.APIREST"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".Activity_Register"
+            android:name=".Vista.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity_Profesor_Main"
+            android:name=".Vista.Activity_Profesor_Main"
             android:exported="false" />
         <activity
-            android:name=".Activity_Profesor_Item"
+            android:name=".Vista.Activity_Profesor_Item"
             android:exported="false" />
         <activity
-            android:name=".Activity_Crear_Profesor"
+            android:name=".Vista.Activity_Crear_Profesor"
             android:exported="false" />
         <activity
-            android:name=".Activity_Crear_Alumno"
+            android:name=".Vista.Activity_Crear_Alumno"
             android:exported="false" />
         <activity
-            android:name=".Activity_Alumno_Main"
+            android:name=".Vista.Activity_Alumno_Main"
             android:exported="false" />
         <activity
-            android:name=".Activity_Alumno_Item"
+            android:name=".Vista.Activity_Alumno_Item"
             android:exported="false" />
         <activity
-            android:name=".Activity_Actualizar_Profesor"
+            android:name=".Vista.Activity_Actualizar_Profesor"
             android:exported="false" />
         <activity
-            android:name=".Activity_ActualizarAlumno"
+            android:name=".Vista.Activity_ActualizarAlumno"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".Vista.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".Vista.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.Splash">
             <intent-filter>
@@ -52,7 +55,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".Vista.MainActivity"
             android:exported="true" />
     </application>
 
